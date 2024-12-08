@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .purchased {
+      text-decoration: line-through;
+      background-color: #d3ffd3;
+    }
+    #shopping-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    #shopping-list li {
+      padding: 5px 10px;
+      border: 1px solid #ccc;
+      margin: 5px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+    <h1>Shopping List</h1>
+    <p>Type an item in the box below, then click "Add" to add it to your shopping list. Use the buttons to manage your list!</p>
+    <input type="text" id="item-input" placeholder="Add a new item" />
+    <button id="add-btn">Add</button>
+    <button id="mark-all-btn">Mark All Purchased</button>
+    <button id="clear-btn">Clear List</button>
+    <ul id="shopping-list"></ul>
+    <script src="app.js"></script>
+  </body>
+  </html>
