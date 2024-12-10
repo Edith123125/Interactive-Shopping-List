@@ -1,3 +1,6 @@
+# live link
+https://edith123125.github.io/Interactive-Shopping-List/
+
 # Interactive-Shopping-List
 This project is a simple interactive shopping list application built using HTML, CSS, and JavaScript. It allows users to add, edit, mark as purchased, and clear items in a shopping list. Additionally, the list is saved to local storage to persist data across browser sessions.
 
